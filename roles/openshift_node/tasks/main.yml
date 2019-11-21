@@ -48,7 +48,7 @@
     sysctl_file: "/etc/sysctl.d/99-openshift.conf"
     reload: yes
 
-- import_tasks: selinux_container_cgroup.yml
+    # - import_tasks: selinux_container_cgroup.yml
 
 - import_tasks: registry_auth.yml
 
